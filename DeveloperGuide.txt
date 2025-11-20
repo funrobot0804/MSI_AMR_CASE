@@ -1,0 +1,50 @@
+======= Developer Guide =======
+
+!!! IMPORTANT !!!: DO NOT USE SPACE FOR DIRECTORY NAME OR ANY FILE'S FILENAME
+
+
+<extra_mscript>
+Please read the comments in template case
+
+
+
+
+<extra_ui>
+Please read the comments in template case
+
+
+
+
+<extra_preset_cmd>
+Just put ai_cmd parameters to "cmd.txt" and please remember to put '\n' (or enter) in the end. 
+
+Example of AI_Cmd parameters:
+	@pf_ML:0.75#;@pf_MA:0.3#;@pf_TA:0.3#;
+
+
+
+
+"case.txt"
+Case name is inside "case.txt", it is necessary for tracking which case is used by AMR now.
+Please remember to put '\n' (or enter) in the end. 
+
+
+
+
+
+
+"eth3.cfg"
+Contains configuration of extend ethernet network port.
+
+
+
+
+
+"size.cfg"
+Indicate the user (or uploader) what size of AMR is matched for this case. 
+Open "size.cfg" and set correct value of matched size parameters through FMS (in "Property Setting" window --> "Size" tab). 
+
+
+
+
+
